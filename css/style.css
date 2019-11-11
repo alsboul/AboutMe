@@ -1,0 +1,26 @@
+header{
+    color:blue;
+    text-align: center;
+    margin: 30px;
+}
+main p {
+    
+    color: brown;
+    
+}
+main i {
+    
+    color: brown;
+    
+}
+main strong {
+    
+    color: brown;
+    
+}
+footer{
+    text-align: center;
+    margin: 300px;
+    background-color: blue;
+}
+ 
