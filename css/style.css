@@ -3,9 +3,14 @@ header{
     text-align: center;
     margin: 30px;
 }
+body{
+    background: aqua;
+}
 main p {
     
-    color: brown;
+    border: 2px solid;
+    margin-left: 50px;
+    padding: 20px;
     
 }
 main i {
@@ -18,9 +23,15 @@ main strong {
     color: brown;
     
 }
+ol{
+    font-size: 20px;
+}
+ul{
+    font-size: 20px;
+}
 footer{
     text-align: center;
-    margin: 300px;
+    margin: 15px;
     background-color: blue;
 }
  

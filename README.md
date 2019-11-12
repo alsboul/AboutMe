@@ -6,3 +6,7 @@
 ## i use prompt to ask a user qustion.
 
 
+## today i use the for loop and if statemnt.
+## in the html i use order list and unorderlist 
+## in css i use box like add margin and padding
+## this its a hard one but i did it.
