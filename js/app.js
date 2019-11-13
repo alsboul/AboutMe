@@ -94,6 +94,7 @@ for(var num=0; num<=3; num++){
    point++
 }
 getQus6();
+function getQus7(){
    var contry = ["rome","paris","london","barcelona"];
    var flag=0;
    for(var i=0; i<4 ; i++)
@@ -117,8 +118,9 @@ getQus6();
    alert('try again');}
    
 
-
+    }
  }
+ getQus7();
  alert('your score is ' +point+ ' out of 7')
    
 alert(contry);
