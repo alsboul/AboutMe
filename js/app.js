@@ -59,7 +59,7 @@ else {
 }
 getQus4();
 //console.log('your answer is =', qus4);
-
+function getQus5(){
 var qus5 = prompt(' Do you think i love pc games?');
 if (qus5 === 'yes' || qus5 === 'y' ) {
     qus5 = qus5.toUpperCase();
@@ -69,8 +69,11 @@ if (qus5 === 'yes' || qus5 === 'y' ) {
 else {
     alert('No man who dose not love pc games');
 }
+}
+getQus5();
 //console.log('your answer is =', qus5);
-alert('Are you redy to guss number from 1 to 10?')
+alert('Are you redy to guss number from 1 to 10?');
+
 for(var num=0; num<=3; num++){
     var qus6 = prompt('guess what the number in my mind?');
     if(qus6 == 3){
