@@ -46,7 +46,7 @@ else {
 }
 getQus3();
 //console.log('your answer is =', qus3);
-
+function getQus4(){
 var qus4 = prompt(' Do you think i love mansef?');
 if (qus4 === 'yes' || qus4 === 'y' ) {
     qus4 = qus4.toUpperCase();
@@ -56,6 +56,8 @@ if (qus4 === 'yes' || qus4 === 'y' ) {
 else {
     alert('try again my frinde');
 }
+}
+getQus4();
 //console.log('your answer is =', qus4);
 
 var qus5 = prompt(' Do you think i love pc games?');
