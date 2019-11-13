@@ -2,9 +2,9 @@
 function getName(){
 var name = prompt('Hello can you tell me your name please');
 alert(name + ' Welcome To my page ');
-alert('Please answer my qustion with yes or no!');
 }
 getName();
+alert('Please answer my qustion with yes or no!');
 function getQus1(){
 var qus1 = prompt('do you guess my age is 23?');
 if (qus1 === 'yes' || qus1 === 'y' ) {
@@ -19,7 +19,6 @@ else {
 }
 getQus1();
 //console.log('your answer is =', qus1);
-function getQus2(){
 var qus2 = prompt('Do you think my favourite color is green? ');
 if (qus2 === 'no' || qus2 === 'n') {
     qus2 = qus2.toUpperCase();
@@ -30,10 +29,7 @@ else {
     alert(' Sorry this is not my favourite color');
     
 }
-}
-getQus2();
 //console.log('your answer is =', qus2);
-function getQus3(){
 var qus3 = prompt(' Are my actions guided by love');
 if (qus3 === 'yes' || qus3 === 'y' ) {
     qus3 = qus3.toUpperCase();
@@ -43,10 +39,8 @@ if (qus3 === 'yes' || qus3 === 'y' ) {
 else {
     alert('You need to be careful about your answer');
 }
-}
-getQus3();
 //console.log('your answer is =', qus3);
-function getQus4(){
+
 var qus4 = prompt(' Do you think i love mansef?');
 if (qus4 === 'yes' || qus4 === 'y' ) {
     qus4 = qus4.toUpperCase();
@@ -56,10 +50,9 @@ if (qus4 === 'yes' || qus4 === 'y' ) {
 else {
     alert('try again my frinde');
 }
-}
-getQus4();
+
+
 //console.log('your answer is =', qus4);
-function getQus5(){
 var qus5 = prompt(' Do you think i love pc games?');
 if (qus5 === 'yes' || qus5 === 'y' ) {
     qus5 = qus5.toUpperCase();
@@ -69,11 +62,8 @@ if (qus5 === 'yes' || qus5 === 'y' ) {
 else {
     alert('No man who dose not love pc games');
 }
-}
-getQus5();
 //console.log('your answer is =', qus5);
 alert('Are you redy to guss number from 1 to 10?');
-
 for(var num=0; num<=3; num++){
     var qus6 = prompt('guess what the number in my mind?');
     if(qus6 == 3){
@@ -88,6 +78,7 @@ for(var num=0; num<=3; num++){
     }   
 
 }
+
    alert('the answer is 3');
    point++
    var contry = ["rome","paris","london","barcelona"];
