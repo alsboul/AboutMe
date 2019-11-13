@@ -1,7 +1,10 @@
 'use strict'
+function getName(){
 var name = prompt('Hello can you tell me your name please');
 alert(name + ' Welcom To my page ');
 alert('Please answer my qustion with yes or no!');
+}
+getName();
 
 var qus1 = prompt('do you guess my age is 23?');
 if (qus1 === 'yes' || qus1 === 'y' ) {
