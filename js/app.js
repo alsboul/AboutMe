@@ -94,7 +94,9 @@ for(var num=0; num<=3; num++){
 
     }
     if (flag == 10)
-    {i=10;}
+    {
+        i=10;
+    }
     else {
    alert('try again');}
    
